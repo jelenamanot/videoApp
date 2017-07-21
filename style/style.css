@@ -1,0 +1,45 @@
+body {
+   font-family: 'Lato', sans-serif;
+   color: #424A60;
+   font-size: 150%;
+}
+
+
+/*---Header---*/
+header {
+   margin-top: 2%;
+}
+header img {
+   width: 50px;
+   display: block;
+   margin: 0 auto;
+}
+
+/*---Input---*/
+.form-control {
+   width: 50%;
+   outline:none;
+   margin: 0 auto 20px auto;
+}
+.form-control:focus {
+   border-color: #424A60;
+}
+
+/*---Footer---*/
+footer p{ font-size: 13px;}
+
+
+.video-item img { max-width: 64px; }
+
+.video-detail .details {
+   padding: 12px 0;
+   border-radius: 4px;
+   text-align: justify;
+}
+.list-group-item {
+   cursor: pointer;
+}
+
+.list-group-item:hover {
+   background-color: #F5F5F5;
+}
